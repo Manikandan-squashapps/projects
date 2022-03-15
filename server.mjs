@@ -1,6 +1,6 @@
 import { createServer } from 'http'
 
-const port = 3000
+const port = 3001
 
 const requestHandler = (request, response) => {
   console.log(request.url)
